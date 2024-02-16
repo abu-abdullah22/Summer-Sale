@@ -38,7 +38,7 @@ for (let card of cards) {
         const restTotal = document.getElementById("total");
         restTotal.innerText = totalPrice - discountAmount.toFixed(2);
 
-        document.getElementById("input-field").value = "";
+   
       } else {
         alert("invalid coupon");
       }
